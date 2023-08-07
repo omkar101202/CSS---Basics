@@ -1,0 +1,66 @@
+.container{
+    height: 400px;
+    border: 2px solid green;
+    display: flex;
+
+    /*1. flex-direction*/
+    /* main axis to vertical (default main axis is horizontal.)*/
+    /*flex-direction: column; */ 
+
+    /* 2. flex-wrap */
+    flex-wrap: wrap;
+
+    /* 3. flex-flow [shorthand notation for 1 & 2] */
+
+    /* 4. justify-content  */
+    /* align all flex items along with main axis */
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center;
+    /* space between the items will be equal but not at end and start */
+    /* justify-content: space-around; */
+    /* spacce between the items and at start and end will be equal */
+    /* justify-content: space-evenly; */
+    /* there will be no any space in starting and end  */
+    /* justify-content: space-between; */
+
+     /* 5. align-items  */
+    /* align all flex items along with cross axis */
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: center;
+    /* align-items: stretch; */
+    /* make the base(bottom)line of content of flex items */
+    /* align-items: baseline; */
+
+    /* shorthand notation of row and column gap */
+    /* gap: 10px; */
+
+    /* 6. align content */
+    /* manages the alignment of the rows formed by the flex items */
+
+
+}
+
+.box{
+    border: 1px solid brown;
+    background-color: aqua;
+    width: 50px;
+    flex-grow: 1;
+
+
+}
+
+#box1{
+    order: 1;
+    /* flex-grow: 1; */
+}
+
+#box3{
+    order: 8;
+    /* flex-grow: 1; */
+}
+
+#box2{
+    order: 4;
+}

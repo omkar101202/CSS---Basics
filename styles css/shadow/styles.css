@@ -1,0 +1,21 @@
+h1{
+    /* first argument of horizontal & vertical shadow value and 3rd parameter for blur */
+    text-shadow: 3px 3px 3px red;
+    /* we can add multiple shadows */
+    text-shadow: 3px 3px 3px red,6px 6px 6px green;
+
+}
+
+.box{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    box-shadow: 10px 10px 10px;
+    /* colour of the box shadow is as same as the text colour of the box */
+    color: red;
+    /* but if we want shadow and text of different colcr */
+    box-shadow: 10px 10px 10px green;
+    /* by  using -ve values of horizontal and vertical shadow we can change direction of shadow  */
+    box-shadow: -10px -10px 10px green;
+
+}

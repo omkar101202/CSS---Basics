@@ -1,0 +1,23 @@
+.box{
+    border: 1px solid black;
+    width: 150px;
+    height: 200px;
+    /* default gradient is top to down */
+    background-image: linear-gradient(red,blue);
+    /* from left to right or right to left */
+    background-image: linear-gradient(to right,red,blue);
+    /* for daigonal gradient  */
+    background-image: linear-gradient(to bottom right,red,blue,green);
+
+
+}
+
+.mydiv{
+    border: 1px solid black;
+    margin: 10px;
+    height: 300px;
+    width: 300px;
+    background-image: radial-gradient(circle,red,blue,white);
+    background-image: radial-gradient(circle,yellow 10%,red 20%,aqua 30%,white);
+}
+
